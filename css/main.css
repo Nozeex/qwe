@@ -1,0 +1,233 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background-color: white;
+    font-size: 33px;
+}
+.navbar-brand{
+    font-family: Caveat;
+}
+.header{
+   height: 59px ;
+    margin-left: 50px ;
+    margin-right: 50px;
+}
+.d-flex{
+    margin-left: 36%;
+}
+.btn-red {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #d03939;
+}
+.btn-red:hover {
+    background-color: #FFEEEE;
+}
+.union{
+    width: 33px;
+    height: 35px;
+}
+.union0{
+    display: flex;
+    margin-left:-1%;
+}
+.union1{
+    margin-left: -3px;
+}
+.union2{
+    margin-left: -3px;
+}
+@media screen and (max-width: 768px) {
+    .union0 {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .union1 {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .union2 {
+        display: none;
+    }
+}
+.card{
+    border-style: none;
+    margin-top: 2%;
+    background-color: #FFEEEE;
+}
+.card-title{
+    font-size: 7vw;
+    color: black;
+    font-family: "Roboto";
+}
+.card-text{
+    font-size: 3vw;
+    font-family: "Roboto";
+}
+.nav-link {
+    font-family: "Roboto";
+    color: black;
+    font-size: 25px;
+}
+.itemSel .nav-link{
+    color: black; /* Убираем цветовое изменение для активных ссылок */
+}
+.section-header {
+    margin-top: 50px;
+     margin-left: 50px;
+ }
+.section-header h2 {
+    font-family: "Roboto";
+    font-size: 40px;
+    color: black;
+}
+ .line {
+    width: 100%;
+    height: 6px;
+    background-color: #d03939;
+}
+ .card-body{
+     border-style: none;
+     background-color: #FFEEEE;
+ }
+ style{
+     .container.container-fluid {
+         position: fixed;
+         top: 0;
+         left: 0;
+         margin: 20px; /* Настройте отступы, как вам угодно */
+     }
+ }
+ .textcvaz {
+    position: absolute;
+    width: 227px;
+    top: -1px;
+    left: 0;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size:1.5vw;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.milo {
+    position: absolute;
+    width: 249px;
+    top: 53px;
+    left: 0;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+}
+.textinsun {
+    width: 273px;
+    top: -1px;
+    left: 0;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size:1.5vw;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+ .icon1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 35px;
+    left: 0;
+}
+.icon2{
+    left: 130px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 35px;
+}
+.icon3 {
+    left: 65px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 35px;
+}
+.spam {
+    width: 276px;
+    height: 222px;
+    top: 25px;
+}
+.textspam{
+    width: 276px;
+    top: -1px;
+    left: 0;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.5vw;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.forinput {
+    width: 7vw;
+    height: 4vw;
+    top: 116px;
+    margin-left:45px;
+}
+ .inputfoot {
+    width: 17vw;
+    height: 4vw;
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    border: 1px solid;
+    border-color: #000000;
+    font-size: 1.5vw;
+    font-family: "Roboto", Helvetica;
+}
+ .inputfoot::placeholder {
+
+    width:12vw;
+    top: 1vw;
+    left: 1vw;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.5vw;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.txtbtn {
+    width: 107px;
+    height: 28px;
+   margin-top: 10px;
+   margin-left: 160px;
+}
+ .txtinbtn {
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 1vw;
+    letter-spacing: 0;
+    line-height: normal;
+}
+@media screen and (max-width: 768px) {
+    .spm {
+        margin-top: 25px; /* новое значение margin-top */
+    }
+}
